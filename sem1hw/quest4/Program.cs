@@ -18,6 +18,9 @@ return false;
 
 Console.WriteLine("Введите число");
 int number = int.Parse(Console.ReadLine());
+if (module(number) < 2){
+    Console.WriteLine("Таких чисел нет");
+}
 if (number == 0){
     Console.WriteLine("Это ноль");
 }else {
